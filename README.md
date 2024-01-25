@@ -4,11 +4,11 @@
 
 **Reasons for forking**
 
-- Streamlined Library: We found that the original library, [@fixie-ai/ai-jsx], came with an abundance of tools, integrations, models, and features that surpassed our project's requirements. Our fork aims to provide a more focused and simplified version tailored to our needs.
+- Streamlined Library: We found that the original library, [@fixie-ai/ai-jsx], came with an abundance of tools, integrations, models, and features that surpassed our project's requirements. Our fork aims to provide a more focused and simplified version tailored to prompt generation and LLM interactions.
 
-- Performance Optimization: The production instance of ai-jsx exhibited performance issues, consuming approximately 30MB of head memory per stream and displaying slow garbage collection. This behavior led to server restarts. Our fork addresses these concerns, optimizing performance and memory usage.
+- Imporoving Performance: The production instance of ai-jsx exhibited performance issues, consuming approximately 30MB of heap memory per stream. This version aims to maintain a low memory footprint.
 
-- Tailored Functionality: We identified several features in the original library that were surplus to our project requirements. By eliminating unnecessary functionalities, we aim to create a leaner and faster library.
+- Tailored Functionality: We identified several features in the original library that were surplus to our project requirements. By slimming down the functionality we aim to create a more single purposed library.
 
 ### What is AIJSX?
 
