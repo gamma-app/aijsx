@@ -1,0 +1,28 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": ["src/**/*", "test/**/*", "benchmark/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["ES2023", "DOM"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "declarationMap": true /* Generates corresponding '.d.ts' file. */,
+
+    "strict": false,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@gammatech/aijsx",
+    "paths": {
+      "@gammatech/aijsx/jsx-runtime": ["./src/jsx-runtime.js"],
+      "@gammatech/aijsx": ["./src/index.js"]
+    }
+  }
+}

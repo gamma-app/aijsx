@@ -1,0 +1,5 @@
+dist/*
+*.md
+src/db/generated
+coverage/
+src/graphql.schema.ts
